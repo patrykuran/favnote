@@ -3,5 +3,5 @@ import { storiesOf } from '@storybook/react';
 import Heading from './Heading';
 
 storiesOf('Heading', module)
-  .add('Normal', () => <Heading>Hello Roman</Heading>)
-  .add('big', () => <Heading big>Hello Roman</Heading>);
+  .add('Normal', () => <Heading>Hello Patryk</Heading>)
+  .add('big', () => <Heading big>Hello Patryk</Heading>);
