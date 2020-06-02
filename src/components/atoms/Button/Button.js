@@ -3,11 +3,11 @@ import styled, { css } from 'styled-components';
 const Button = styled.button`
   padding: 0;
   background-color: ${({ theme }) => theme.primary};
-  width: ${({ width }) => width || '220px'};
+  width: 220px;
   height: 47px;
   border: none;
   border-radius: 50px;
-  font-family: ${({ theme }) => theme.mainFont};
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
@@ -15,7 +15,7 @@ const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     css`
-      background-color: ${({ color }) => color || '#e6e6e6'};
+      background-color: hsl(0, 0%, 90%);
       width: 105px;
       height: 30px;
       font-size: 10px;
